@@ -17,7 +17,7 @@ Highlights:
 # Prerequisites
 
 1.	Visual Studio 2017
-2.  Windows SDK Insider Preview Build 17758
+2.  Windows SDK Insider Preview Build 17763
 3.	Windows 10 Insider Preview Build 17763
 
 # App architecture
@@ -72,5 +72,5 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 # See also
 
 * [C++/WinRT Documentation](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
-
+* [Using the UWP XAML hosting API](https://docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api)
 * [DesktopWindowXamlSource](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource)
