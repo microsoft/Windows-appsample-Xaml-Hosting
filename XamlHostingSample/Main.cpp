@@ -1,13 +1,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-#include <windows.h>
-#include <windowsx.h>
-#include <stdlib.h>
-#include <string.h>
-#include <tchar.h>
 #include "pch.h"
-#include <windows.ui.xaml.hosting.desktopwindowxamlsource.h>
 
 using namespace winrt;
 using namespace Windows::Foundation;
