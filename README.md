@@ -17,8 +17,9 @@ Highlights:
 # Prerequisites
 
 1.	Visual Studio 2017
-2.  Windows SDK Insider Preview Build 17763
-3.	Windows 10 Insider Preview Build 17763
+2. [C++ /WinRT Visual Studio Extension (VSIX)](https://aka.ms/cppwinrt/vsix)
+3. Windows SDK Insider Preview Build 17763
+4.	Windows 10 Insider Preview Build 17763
 
 # App architecture
 This sample is a "gallery style" project that incorporates Universal Windows Platform (UWP) controls into a Win32 Desktop app.  Currently the following controls are used:
