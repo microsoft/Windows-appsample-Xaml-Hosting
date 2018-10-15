@@ -1,0 +1,12 @@
+### YamlMime:Sample
+sample:
+- name: XAML Hosting API sample
+  description: A win32 desktop app that demonstrates assorted scenarios using the UWP XAML hosting API (also called XAML islands).
+  image: Images/XamlInking.JPG
+  generateZip: true
+  author: JoshuaPartlow
+  languages:
+  - cpp
+  technologies:
+  - windows
+  vssolution: XamlHostingSample.sln
