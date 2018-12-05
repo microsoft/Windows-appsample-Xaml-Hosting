@@ -1,4 +1,15 @@
-# Introduction 
+---
+topic: sample
+languages:
+- cpp
+products:
+- windows
+statusNotificationTargets:
+- codefirst
+---
+
+# XAML Hosting API sample
+
 The XAML Hosting API sample is a win32 desktop app that demonstrates assorted scenarios using the UWP XAML hosting API (also called XAML islands).  
 
 ![XAML Hosted API sample showing the layout architecture](Images/XamlInking.JPG)
