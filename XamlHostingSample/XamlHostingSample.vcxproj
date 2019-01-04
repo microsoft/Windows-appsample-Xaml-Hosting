@@ -158,9 +158,6 @@
     <None Include="..\..\LICENSE.md" />
     <None Include="..\..\README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Manifest Include="XamlHostingSample.exe.manifest" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

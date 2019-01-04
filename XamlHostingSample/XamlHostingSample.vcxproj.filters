@@ -28,7 +28,4 @@
     <None Include="..\..\README.md" />
     <None Include="..\..\LICENSE.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Manifest Include="XamlHostingSample.exe.manifest" />
-  </ItemGroup>
 </Project>
