@@ -22,15 +22,17 @@ Highlights:
     * Handling XAML and native windows events/messages
     * Demonstrates basic XAML data binding
 
->Note: The UWP XAML hosting API is currently available as a developer preview. Although we encourage you to try out this API in your own prototype code now, we do not recommend that you use it in production code at this time. This API, and the sample, will continue to mature and stabilize in future Windows releases. 
+>Note: In Window 10 October 2018 Update, the UWP XAML hosting API is available as a developer preview. Although we encourage you to try out this API in your own prototype code now, we do not recommend that you use it in production code at this time. This API, and the sample, will continue to mature and stabilize in future Windows releases. 
  
 
 # Prerequisites
 
-1.	Visual Studio 2017
+1. Visual Studio 2017
 2. [C++ /WinRT Visual Studio Extension (VSIX)](https://aka.ms/cppwinrt/vsix)
-3. Windows SDK Insider Preview Build 17763
-4.	Windows 10 Insider Preview Build 17763
+3. [Windows 10 SDK version 1809 (build 17763)](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
+4. Windows 10 October 2018 Update (version 1809, build 17763)
+
+>Note: This example was tested only in the 1809 build. There is no warranty that it works on the 19H1 insider builds. For example, we tested it on the  Windows 10 18305 Insider build, and it worked after adding the maxversiontested property in the app manifest, but there were issues with the Reveal effects. As a workaround, the transparency effects were disabled in the OS Settings meanwhile the Product Feature team is finishing the work.
 
 # App architecture
 This sample is a "gallery style" project that incorporates Universal Windows Platform (UWP) controls into a Win32 Desktop app.  Currently the following controls are used:
