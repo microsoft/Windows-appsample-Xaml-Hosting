@@ -4,6 +4,7 @@ languages:
 - cpp
 products:
 - windows
+- windows-uwp
 statusNotificationTargets:
 - codefirst
 ---
