@@ -28,8 +28,8 @@ The XAML Hosting API sample is a Win32 Desktop application that demonstrates ass
 
 # Prerequisites
 
-- Windows 10. Minimum supported: Windows 10, version 1809 (10.0; Build 17763), also known as the Windows 10 October 2018 Update.
-- [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk). Minimum supported: Windows SDK version 10.0.17763.0 (Windows 10, version 1809).
+- Windows 10. Minimum: Windows 10, version 1809 (10.0; Build 17763), also known as the Windows 10 October 2018 Update.
+- [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk). Minimum: Windows SDK version 10.0.17763.0 (Windows 10, version 1809).
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (or Visual Studio 2017).
 
 You can optionally install the [C++/WinRT Visual Studio Extension (VSIX)](https://aka.ms/cppwinrt/vsix). When you open the project, it will install the [Microsoft.Windows.CppWinRT NuGet package](https://www.nuget.org/packages/Microsoft.Windows.CppWinRT/).
