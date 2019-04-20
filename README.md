@@ -11,6 +11,8 @@ statusNotificationTargets:
 
 # XAML Hosting API sample
 
+> Note - This sample is targeted and tested for Windows 10, version 1903 (10.0; Build 18362), and Visual Studio 2019. If you prefer, you can use project properties to retarget the project(s) to Windows 10, version 1809 (10.0; Build 17763), and/or open the sample with Visual Studio 2017.
+
 The XAML Hosting API sample is a Win32 Desktop application that demonstrates assorted scenarios using the UWP XAML Hosting API (also known as XAML Islands).
 
 ![XAML Hosted API sample showing the layout architecture](Images/XamlInking.JPG)
@@ -35,7 +37,7 @@ The XAML Hosting API sample is a Win32 Desktop application that demonstrates ass
 You can optionally install the [C++/WinRT Visual Studio Extension (VSIX)](https://aka.ms/cppwinrt/vsix). When you open the project, it will install the [Microsoft.Windows.CppWinRT NuGet package](https://www.nuget.org/packages/Microsoft.Windows.CppWinRT/).
 
 > [!NOTE]
-> This sample is primarily targeted at Windows 10, version 1809 (10.0; Build 17763), also known as the Windows 10 October 2018 Update. However, we did some testing on the Windows 10, version 1903 (10.0; Build 18343) [Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewiso), and it worked after we added the `maxversiontested` element in the application manifest. But there were issues with the Reveal effects. As a workaround, the transparency effects were disabled in the OS Settings; meanwhile the Product Feature team is finishing the work.
+> When we tested this sample on Windows 10, version 1903, it worked after we added the `maxversiontested` element in the application manifest. But there were issues with the Reveal effects. As a workaround, the transparency effects were disabled in the OS Settings; meanwhile the Product Feature team is finishing the work.
 
 # App architecture
 
