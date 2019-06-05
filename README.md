@@ -1,6 +1,7 @@
 ---
 topic: sample
 languages:
+- cppwinrt
 - cpp
 products:
 - windows
