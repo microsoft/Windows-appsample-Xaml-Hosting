@@ -8,6 +8,7 @@ products:
 - windows-uwp
 statusNotificationTargets:
 - codefirst@microsoft.com
+description: "The XAML Hosting API sample is a Win32 Desktop application that demonstrates assorted scenarios using the UWP XAML Hosting API (also known as XAML Islands)."
 ---
 
 # XAML Hosting API sample
