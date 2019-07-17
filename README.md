@@ -1,5 +1,5 @@
 ---
-topic: sample
+page_type: sample
 languages:
 - cppwinrt
 - cpp
@@ -7,7 +7,7 @@ products:
 - windows
 - windows-uwp
 statusNotificationTargets:
-- codefirst
+- codefirst@microsoft.com
 ---
 
 # XAML Hosting API sample
