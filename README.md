@@ -6,8 +6,6 @@ languages:
 products:
 - windows
 - windows-uwp
-statusNotificationTargets:
-- codefirst@microsoft.com
 description: "The XAML Hosting API sample is a Win32 Desktop application that demonstrates assorted scenarios using the UWP XAML Hosting API."
 ---
 
@@ -30,7 +28,7 @@ The XAML Hosting API sample is a Win32 Desktop application that demonstrates ass
 > [!NOTE]
 > In the Windows 10 October 2018 Update, the UWP XAML Hosting API is available as a Developer Preview. Although we encourage you to try out this API in your own prototype code now, we don't recommend that you use it in production code at this time. This API, and the sample, will continue to mature and stabilize in future Windows releases.
 
-# Prerequisites
+## Prerequisites
 
 - Windows 10. Minimum: Windows 10, version 1809 (10.0; Build 17763), also known as the Windows 10 October 2018 Update.
 - [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk). Minimum: Windows SDK version 10.0.17763.0 (Windows 10, version 1809).
@@ -41,7 +39,7 @@ You can optionally install the [C++/WinRT Visual Studio Extension (VSIX)](https:
 > [!NOTE]
 > When we tested this sample on Windows 10, version 1903, it worked after we added the `maxversiontested` element in the application manifest. But there were issues with the Reveal effects. As a workaround, the transparency effects were disabled in the OS Settings; meanwhile the Product Feature team is finishing the work.
 
-# App architecture
+## App architecture
 
 This sample is a *gallery-style* project, which incorporates Universal Windows Platform (UWP) controls into a Win32 Desktop application. Currently, the following controls are used.
 
@@ -57,7 +55,7 @@ The presentation is module-based, and you can click through each of the supporte
 2. The parent **HWND (hwndParent)** contains two child windows. The first, **hwndSelection**, holds the child **hwndSelectionXamlIsland**, which hosts the XAML Navigation View control.
 3. The second child of **hwndParent**, **hwndDetail**, is not bound to the Navigation View content property, and the window is overlaid onto the **HWND Detail Pane** region depicted in the second callout. This HWND contains windows for Win32 controls, as well as a window for containing XAML UI controls.
 
-# Code at a glance
+## Code at a glance
 
 If you're interested in just code snippets for certain areas, and you don't want to browse nor run the full sample, then you can check out the following functions. The source code for this project is located in [Main.cpp](XamlDemoGallery/XamlDemoGallery/Main.cpp#L10).
 
@@ -70,11 +68,11 @@ If you're interested in just code snippets for certain areas, and you don't want
 - **CreateMediaPlayer**. Creates the UWP **MediaPlayerElement** control. It creates and returns a XAML UI element, which is hosted in **hwndDetailXamlIsland.**
 - **LoadModule**. Sets the appropriate XAML for hosting based on Navigation View selection.
 
-# Known Issues
+## Known Issues
 
 - The Media Player Element control can't be maximized to full screen in the **Media Player** module at this time. The control disappears if you do that, and you'll need to click out of the module and back to restore the view.
 
-# Your contributions
+## Your contributions
 
 This project welcomes your contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
@@ -82,7 +80,7 @@ When you submit a pull request (PR), a CLA-bot automatically determines whether 
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/), or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# See also
+## See also
 
 - [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
 - [Using the UWP XAML Hosting API](https://docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api)
