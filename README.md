@@ -6,7 +6,8 @@ languages:
 products:
 - windows
 - windows-api-win32
-description: "This sample has now been retired. See the README for links to newer sample applications."
+statusNotificationTargets:
+- codefirst@microsoft.com
 ---
 
 # XAML hosting API sample	
